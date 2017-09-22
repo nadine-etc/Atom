@@ -4,6 +4,7 @@ var hello = functionn(){
   .then( function(data){
     console.log(data);
     alert(data.data);
-    document.getElementById('example').style.backgroundColor="green"; 
+    document.getElementById('example').style.backgroundColor="green";
   })
 }
+sdfsdf
