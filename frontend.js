@@ -1,8 +1,9 @@
 var hello = functionn(){
   fetch('/hello')
   .then (res => res.json())
-  .then( res => {
-    console.log(res.body);
-    alert(res);
+  .then( function(data){
+    console.log(data);
+    alert(data.data);
+    document.getElementById('example').style.backgroundColor="green"; 
   })
 }
